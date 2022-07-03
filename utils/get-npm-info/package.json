@@ -1,9 +1,9 @@
 {
-  "name": "@qinshihuang/core",
+  "name": "@qinshihuang/get-npm-info",
   "version": "1.0.4",
   "description": "> TODO: description",
   "author": "mazhaoyuan <mazhaoyuan@huoban.com>",
-  "homepage": "",
+  "homepage": "https://github.com/mazhy/qinshihuang#readme",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -16,7 +16,19 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazhy/qinshihuang.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mazhy/qinshihuang/issues"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "semver": "^7.3.7",
+    "url-join": "^4.0.1"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "name": "@qinshihuang/log",
+  "version": "1.0.4",
+  "description": "> TODO: description",
+  "author": "mazhaoyuan <mazhaoyuan@huoban.com>",
+  "homepage": "https://github.com/mazhy/qinshihuang#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazhy/qinshihuang.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mazhy/qinshihuang/issues"
+  },
+  "dependencies": {
+    "npmlog": "^6.0.2"
+  }
+}
