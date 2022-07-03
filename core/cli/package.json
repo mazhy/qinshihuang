@@ -1,6 +1,6 @@
 {
   "name": "@qinshihuang/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "> TODO: description",
   "author": "mazhaoyuan <mazhaoyuan@huoban.com>",
   "homepage": "",
@@ -23,8 +23,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@qinshihuang/log": "file:../../utils/log",
     "@qinshihuang/get-npm-info": "file:../../utils/get-npm-info",
+    "@qinshihuang/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "dotenv": "^16.0.1",
     "import-local": "^3.1.0",
